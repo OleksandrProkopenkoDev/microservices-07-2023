@@ -17,7 +17,7 @@ public class InventoryServiceApplication {
 	@Bean
 	public CommandLineRunner loadData(InventoryRepository inventoryRepository){
 		return args -> {
-			Inventory inventory1 = new Inventory(
+/*			Inventory inventory1 = new Inventory(
 					"iphone13_aabb",
 					89
 			);
@@ -26,7 +26,7 @@ public class InventoryServiceApplication {
 					54
 			);
 			inventoryRepository.save(inventory1);
-			inventoryRepository.save(inventory2);
+			inventoryRepository.save(inventory2);*/
 
 		};
 	}
